@@ -54,17 +54,17 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtFeedName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.lvDescription = new System.Windows.Forms.ListBox();
             this.labelUpdated = new System.Windows.Forms.Label();
+            this.DeskLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAddFeed
             // 
             this.btnAddFeed.Enabled = false;
-            this.btnAddFeed.Location = new System.Drawing.Point(259, 301);
-            this.btnAddFeed.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddFeed.Location = new System.Drawing.Point(291, 376);
+            this.btnAddFeed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAddFeed.Name = "btnAddFeed";
-            this.btnAddFeed.Size = new System.Drawing.Size(127, 28);
+            this.btnAddFeed.Size = new System.Drawing.Size(143, 35);
             this.btnAddFeed.TabIndex = 1;
             this.btnAddFeed.Text = "Add";
             this.btnAddFeed.UseVisualStyleBackColor = true;
@@ -73,10 +73,10 @@
             // btnEditFeeds
             // 
             this.btnEditFeeds.Enabled = false;
-            this.btnEditFeeds.Location = new System.Drawing.Point(807, 355);
-            this.btnEditFeeds.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditFeeds.Location = new System.Drawing.Point(908, 444);
+            this.btnEditFeeds.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEditFeeds.Name = "btnEditFeeds";
-            this.btnEditFeeds.Size = new System.Drawing.Size(129, 28);
+            this.btnEditFeeds.Size = new System.Drawing.Size(145, 35);
             this.btnEditFeeds.TabIndex = 2;
             this.btnEditFeeds.Text = "Edit";
             this.btnEditFeeds.UseVisualStyleBackColor = true;
@@ -85,10 +85,10 @@
             // btnDeleteFeeds
             // 
             this.btnDeleteFeeds.Enabled = false;
-            this.btnDeleteFeeds.Location = new System.Drawing.Point(807, 300);
-            this.btnDeleteFeeds.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDeleteFeeds.Location = new System.Drawing.Point(908, 375);
+            this.btnDeleteFeeds.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeleteFeeds.Name = "btnDeleteFeeds";
-            this.btnDeleteFeeds.Size = new System.Drawing.Size(129, 28);
+            this.btnDeleteFeeds.Size = new System.Drawing.Size(145, 35);
             this.btnDeleteFeeds.TabIndex = 3;
             this.btnDeleteFeeds.Text = "Delete";
             this.btnDeleteFeeds.UseVisualStyleBackColor = true;
@@ -96,20 +96,20 @@
             // 
             // txtLink
             // 
-            this.txtLink.Location = new System.Drawing.Point(39, 358);
-            this.txtLink.Margin = new System.Windows.Forms.Padding(4);
+            this.txtLink.Location = new System.Drawing.Point(44, 448);
+            this.txtLink.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLink.Name = "txtLink";
-            this.txtLink.Size = new System.Drawing.Size(359, 22);
+            this.txtLink.Size = new System.Drawing.Size(403, 26);
             this.txtLink.TabIndex = 4;
             this.txtLink.TextChanged += new System.EventHandler(this.UrlTextChanged);
             // 
             // lvEpisode
             // 
             this.lvEpisode.HideSelection = false;
-            this.lvEpisode.Location = new System.Drawing.Point(37, 414);
-            this.lvEpisode.Margin = new System.Windows.Forms.Padding(4);
+            this.lvEpisode.Location = new System.Drawing.Point(42, 518);
+            this.lvEpisode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lvEpisode.Name = "lvEpisode";
-            this.lvEpisode.Size = new System.Drawing.Size(1384, 121);
+            this.lvEpisode.Size = new System.Drawing.Size(1556, 150);
             this.lvEpisode.TabIndex = 6;
             this.lvEpisode.UseCompatibleStateImageBehavior = false;
             this.lvEpisode.View = System.Windows.Forms.View.Tile;
@@ -118,10 +118,10 @@
             // btnDeleteCategory
             // 
             this.btnDeleteCategory.Enabled = false;
-            this.btnDeleteCategory.Location = new System.Drawing.Point(1261, 154);
-            this.btnDeleteCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDeleteCategory.Location = new System.Drawing.Point(1419, 192);
+            this.btnDeleteCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeleteCategory.Name = "btnDeleteCategory";
-            this.btnDeleteCategory.Size = new System.Drawing.Size(160, 28);
+            this.btnDeleteCategory.Size = new System.Drawing.Size(180, 35);
             this.btnDeleteCategory.TabIndex = 10;
             this.btnDeleteCategory.Text = "Delete";
             this.btnDeleteCategory.UseVisualStyleBackColor = true;
@@ -130,10 +130,10 @@
             // btnEditCategory
             // 
             this.btnEditCategory.Enabled = false;
-            this.btnEditCategory.Location = new System.Drawing.Point(1261, 232);
-            this.btnEditCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditCategory.Location = new System.Drawing.Point(1419, 290);
+            this.btnEditCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEditCategory.Name = "btnEditCategory";
-            this.btnEditCategory.Size = new System.Drawing.Size(160, 28);
+            this.btnEditCategory.Size = new System.Drawing.Size(180, 35);
             this.btnEditCategory.TabIndex = 11;
             this.btnEditCategory.Text = "Edit";
             this.btnEditCategory.UseVisualStyleBackColor = true;
@@ -141,40 +141,41 @@
             // 
             // txtCategory
             // 
-            this.txtCategory.Location = new System.Drawing.Point(1044, 313);
-            this.txtCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCategory.Location = new System.Drawing.Point(1174, 391);
+            this.txtCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtCategory.Name = "txtCategory";
-            this.txtCategory.Size = new System.Drawing.Size(183, 22);
+            this.txtCategory.Size = new System.Drawing.Size(205, 26);
             this.txtCategory.TabIndex = 12;
             this.txtCategory.TextChanged += new System.EventHandler(this.CategoryTextChanged);
             // 
             // cbIntervall
             // 
             this.cbIntervall.FormattingEnabled = true;
-            this.cbIntervall.Location = new System.Drawing.Point(417, 358);
-            this.cbIntervall.Margin = new System.Windows.Forms.Padding(4);
+            this.cbIntervall.Location = new System.Drawing.Point(469, 448);
+            this.cbIntervall.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbIntervall.Name = "cbIntervall";
-            this.cbIntervall.Size = new System.Drawing.Size(160, 24);
+            this.cbIntervall.Size = new System.Drawing.Size(180, 28);
             this.cbIntervall.TabIndex = 16;
             this.cbIntervall.SelectedIndexChanged += new System.EventHandler(this.IntervalChanged);
             // 
             // cbCategory
             // 
             this.cbCategory.FormattingEnabled = true;
-            this.cbCategory.Location = new System.Drawing.Point(615, 358);
-            this.cbCategory.Margin = new System.Windows.Forms.Padding(4);
+            this.cbCategory.Location = new System.Drawing.Point(692, 448);
+            this.cbCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(160, 24);
+            this.cbCategory.Size = new System.Drawing.Size(180, 28);
             this.cbCategory.TabIndex = 17;
             this.cbCategory.SelectedIndexChanged += new System.EventHandler(this.CategoryChanged);
             // 
             // lvCategory
             // 
             this.lvCategory.FormattingEnabled = true;
-            this.lvCategory.ItemHeight = 16;
-            this.lvCategory.Location = new System.Drawing.Point(1044, 32);
+            this.lvCategory.ItemHeight = 20;
+            this.lvCategory.Location = new System.Drawing.Point(1174, 40);
+            this.lvCategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvCategory.Name = "lvCategory";
-            this.lvCategory.Size = new System.Drawing.Size(183, 228);
+            this.lvCategory.Size = new System.Drawing.Size(205, 284);
             this.lvCategory.TabIndex = 18;
             this.lvCategory.SelectedIndexChanged += new System.EventHandler(this.IndexChanged);
             // 
@@ -186,9 +187,10 @@
             this.columnHeader3,
             this.columnHeader4});
             this.lvFeeds.HideSelection = false;
-            this.lvFeeds.Location = new System.Drawing.Point(1, 31);
+            this.lvFeeds.Location = new System.Drawing.Point(1, 39);
+            this.lvFeeds.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvFeeds.Name = "lvFeeds";
-            this.lvFeeds.Size = new System.Drawing.Size(965, 240);
+            this.lvFeeds.Size = new System.Drawing.Size(1085, 299);
             this.lvFeeds.TabIndex = 19;
             this.lvFeeds.UseCompatibleStateImageBehavior = false;
             this.lvFeeds.View = System.Windows.Forms.View.Details;
@@ -217,72 +219,73 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 337);
+            this.label1.Location = new System.Drawing.Point(40, 421);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 17);
+            this.label1.Size = new System.Drawing.Size(29, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "Url";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(414, 337);
+            this.label2.Location = new System.Drawing.Point(466, 421);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 17);
+            this.label2.Size = new System.Drawing.Size(118, 20);
             this.label2.TabIndex = 22;
             this.label2.Text = "update Intervall";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(612, 337);
+            this.label3.Location = new System.Drawing.Point(688, 421);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 17);
+            this.label3.Size = new System.Drawing.Size(70, 20);
             this.label3.TabIndex = 23;
             this.label3.Text = "category";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 393);
+            this.label5.Location = new System.Drawing.Point(38, 491);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 17);
+            this.label5.Size = new System.Drawing.Size(74, 20);
             this.label5.TabIndex = 25;
             this.label5.Text = "podcasts";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(34, 539);
+            this.label6.Location = new System.Drawing.Point(38, 674);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 17);
+            this.label6.Size = new System.Drawing.Size(86, 20);
             this.label6.TabIndex = 26;
             this.label6.Text = "description";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(-3, 12);
+            this.label7.Location = new System.Drawing.Point(-3, 15);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(43, 17);
+            this.label7.Size = new System.Drawing.Size(49, 20);
             this.label7.TabIndex = 27;
             this.label7.Text = "feeds";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(1041, 9);
+            this.label8.Location = new System.Drawing.Point(1171, 11);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(74, 17);
+            this.label8.Size = new System.Drawing.Size(83, 20);
             this.label8.TabIndex = 28;
             this.label8.Text = "categories";
             // 
             // btnAdd
             // 
             this.btnAdd.Enabled = false;
-            this.btnAdd.Location = new System.Drawing.Point(1261, 311);
+            this.btnAdd.Location = new System.Drawing.Point(1419, 389);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(160, 23);
+            this.btnAdd.Size = new System.Drawing.Size(180, 29);
             this.btnAdd.TabIndex = 29;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -290,45 +293,45 @@
             // 
             // txtFeedName
             // 
-            this.txtFeedName.Location = new System.Drawing.Point(37, 306);
+            this.txtFeedName.Location = new System.Drawing.Point(42, 382);
+            this.txtFeedName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtFeedName.Name = "txtFeedName";
-            this.txtFeedName.Size = new System.Drawing.Size(200, 22);
+            this.txtFeedName.Size = new System.Drawing.Size(224, 26);
             this.txtFeedName.TabIndex = 30;
             this.txtFeedName.TextChanged += new System.EventHandler(this.FeedNameChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 286);
+            this.label4.Location = new System.Drawing.Point(40, 358);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 17);
+            this.label4.Size = new System.Drawing.Size(85, 20);
             this.label4.TabIndex = 31;
             this.label4.Text = "feed name";
-            // 
-            // lvDescription
-            // 
-            this.lvDescription.FormattingEnabled = true;
-            this.lvDescription.ItemHeight = 16;
-            this.lvDescription.Location = new System.Drawing.Point(37, 559);
-            this.lvDescription.Name = "lvDescription";
-            this.lvDescription.Size = new System.Drawing.Size(1384, 84);
-            this.lvDescription.TabIndex = 32;
             // 
             // labelUpdated
             // 
             this.labelUpdated.AutoSize = true;
-            this.labelUpdated.Location = new System.Drawing.Point(187, 8);
+            this.labelUpdated.Location = new System.Drawing.Point(210, 10);
             this.labelUpdated.Name = "labelUpdated";
-            this.labelUpdated.Size = new System.Drawing.Size(0, 17);
+            this.labelUpdated.Size = new System.Drawing.Size(0, 20);
             this.labelUpdated.TabIndex = 33;
+            // 
+            // DeskLabel
+            // 
+            this.DeskLabel.AutoSize = true;
+            this.DeskLabel.Location = new System.Drawing.Point(57, 724);
+            this.DeskLabel.Name = "DeskLabel";
+            this.DeskLabel.Size = new System.Drawing.Size(0, 20);
+            this.DeskLabel.TabIndex = 34;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1710, 668);
+            this.ClientSize = new System.Drawing.Size(1924, 835);
+            this.Controls.Add(this.DeskLabel);
             this.Controls.Add(this.labelUpdated);
-            this.Controls.Add(this.lvDescription);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtFeedName);
             this.Controls.Add(this.btnAdd);
@@ -351,7 +354,7 @@
             this.Controls.Add(this.btnDeleteFeeds);
             this.Controls.Add(this.btnEditFeeds);
             this.Controls.Add(this.btnAddFeed);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -387,8 +390,8 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox txtFeedName;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ListBox lvDescription;
         private System.Windows.Forms.Label labelUpdated;
+        private System.Windows.Forms.Label DeskLabel;
     }
 }
 

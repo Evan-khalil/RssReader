@@ -117,7 +117,7 @@ namespace RssProjct
 
         private void lvEpisode_SelectedIndexChanged(object sender, EventArgs e)
         {
-            lvDescription.Items.Clear();
+            DeskLabel.Text = "";
             if (lvEpisode.SelectedItems.Count == 1)
             {
                 string selectedEpisode = lvEpisode.SelectedItems[0].Text;
@@ -128,7 +128,7 @@ namespace RssProjct
                     {
                         if (episode.Title.Equals(selectedEpisode) && item.Title.Equals(feedName))
                         {
-                            lvDescription.Items.Add(episode.Description + " " + episode.Date);
+                            DeskLabel.Text = episode.Description + " " + episode.Date;
                         }
                     }
                 }
